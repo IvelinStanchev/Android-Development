@@ -55,13 +55,6 @@ public class MainActivity extends Activity implements OnClickListener, OnChecked
 		
 		setContentView(R.layout.activity_main);
 		
-		next1 = new Appnext(this);
-		next1.setAppID("98a7a68d-e786-4cc3-a316-c691c1150df8");
-		next1.showBubble();
-		
-		next2 = new Appnext(this);
-		next2.setAppID("ce2fa461-1ebb-4d60-8b2c-204e7562f217");
-		
 		playGame = (Button) findViewById(R.id.bPlayGame);
 		sound = (Button) findViewById(R.id.bSound);
 		quit = (Button) findViewById(R.id.bQuit);
@@ -86,7 +79,6 @@ public class MainActivity extends Activity implements OnClickListener, OnChecked
 		// TODO Auto-generated method stub
 		switch(v.getId()){
 		case R.id.bPlayGame:
-			next2.showBubble();
 			Intent i = new Intent(MainActivity.this, ChoosingNumberOfPlayers.class);
 			startActivityForResult(i, 0);
 			break;

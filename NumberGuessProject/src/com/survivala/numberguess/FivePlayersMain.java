@@ -48,9 +48,6 @@ public class FivePlayersMain extends Activity implements OnClickListener{
 		
 		setContentView(R.layout.fiveplayersmain);
 		
-		next1 = new Appnext(this);
-		next1.setAppID("fc8d7356-1633-4676-8e90-74e565ab7166");
-		
 		if(random.nextInt(3) == 1){
 			next1.showBubble();
 		}

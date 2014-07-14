@@ -36,9 +36,6 @@ public class ChoosingNamesThreePlayers extends Activity implements OnClickListen
 		
 		setContentView(R.layout.choosingnamesthreeplayers);
 		
-		next1 = new Appnext(this);
-		next1.setAppID("92d2db20-d1c6-4c55-b220-cf7964f34274");
-		
 		player1ThreePlayers = (EditText) findViewById(R.id.etPlayer1);
 		player2ThreePlayers = (EditText) findViewById(R.id.etPlayer2);
 		player3ThreePlayers = (EditText) findViewById(R.id.etPlayer3);

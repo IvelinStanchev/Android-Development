@@ -34,9 +34,6 @@ public class Intro extends Activity{
 		
 		setContentView(R.layout.intro);
 		
-		next1 = new Appnext(this);
-		next1.setAppID("92d2db20-d1c6-4c55-b220-cf7964f34274");
-		
 		mySong = MediaPlayer.create(Intro.this, R.raw.introsong);
 		mySong.start();
 		

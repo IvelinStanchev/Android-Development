@@ -48,13 +48,6 @@ public class ThreePlayersMain extends Activity implements OnClickListener{
 		
 		setContentView(R.layout.threeplayersmain);
 		
-		next1 = new Appnext(this);
-		next1.setAppID("fc8d7356-1633-4676-8e90-74e565ab7166");
-		
-		if(random.nextInt(3) == 1){
-			next1.showBubble();
-		}
-		
 		vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 		
 		aboveMessage = (TextView) findViewById(R.id.tvThreePlayers);

@@ -37,9 +37,6 @@ public class ChoosingNamesFivePlayers extends Activity implements OnClickListene
 		
 		setContentView(R.layout.choosingnamesfiveplayers);
 		
-		next1 = new Appnext(this);
-		next1.setAppID("92d2db20-d1c6-4c55-b220-cf7964f34274");
-		
 		player1FivePlayers = (EditText) findViewById(R.id.etPlayer1ChoosingFivePlayers);
 		player2FivePlayers = (EditText) findViewById(R.id.etPlayer2ChoosingFivePlayers);
 		player3FivePlayers = (EditText) findViewById(R.id.etPlayer3ChoosingFivePlayers);

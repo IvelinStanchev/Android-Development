@@ -41,9 +41,6 @@ public class ChoosingNumberOfPlayers extends Activity implements OnCheckedChange
 		
 		setContentView(R.layout.choosingnumberofplayers);
 		
-		next1 = new Appnext(this);
-		next1.setAppID("92d2db20-d1c6-4c55-b220-cf7964f34274");
-		
 		bGo = (Button) findViewById(R.id.bGo);
 		rgPlayers = (RadioGroup) findViewById(R.id.rgPlayers);
 		
