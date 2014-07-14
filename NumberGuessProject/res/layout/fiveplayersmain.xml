@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/choosingplayersbackground"
+    >
+
+    <TextView
+        android:id="@+id/tvMessageFivePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/etPlayer1FivePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessageFivePlayers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPlayer2FivePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPlayer1FivePlayers"
+        android:layout_marginTop="19dp"
+        android:layout_toLeftOf="@+id/tvMessageFivePlayers"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/etPlayer3FivePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/etPlayer2FivePlayers"
+        android:layout_below="@+id/etPlayer2FivePlayers"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/etPlayer5FivePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPlayer3FivePlayers"
+        android:layout_alignBottom="@+id/etPlayer3FivePlayers"
+        android:layout_toRightOf="@+id/tvMessageFivePlayers"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/etPlayer4FivePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPlayer3FivePlayers"
+        android:layout_toRightOf="@+id/tvMessageFivePlayers"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" />
+
+    <TextView
+        android:id="@+id/tvPlayer2FivePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPlayer1FivePlayers"
+        android:layout_toLeftOf="@+id/etPlayer1FivePlayers"
+        android:textColor="#1ECAFF"
+        android:text="Player2" />
+
+    <TextView
+        android:id="@+id/tvPlayer4FivePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPlayer1FivePlayers"
+        android:layout_toRightOf="@+id/etPlayer1FivePlayers"
+        android:textColor="#1ECAFF"
+        android:text="Player4" />
+
+    <Button
+        android:id="@+id/bSeeResultsFivePlayerss"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/customgobutton"
+        />
+
+    <TextView
+        android:id="@+id/tvPlayer5FivePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvPlayer4FivePlayers"
+        android:layout_below="@+id/etPlayer4FivePlayers"
+        android:textColor="#1ECAFF"
+        android:text="Player5" />
+
+    <TextView
+        android:id="@+id/tvPlayer3FivePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPlayer5FivePlayers"
+        android:layout_toLeftOf="@+id/bSeeResultsFivePlayerss"
+        android:text="Player3"
+        android:textColor="#1ECAFF" />
+
+    <TextView
+        android:id="@+id/tvPlayer1FivePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessageFivePlayers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Player1"
+        android:textColor="#1ECAFF" />
+
+</RelativeLayout>

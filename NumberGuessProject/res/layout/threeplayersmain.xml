@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/choosingplayersbackground"
+    >
+
+    <TextView
+        android:id="@+id/tvThreePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/etPlayer3ThreePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPlayer2ThreePlayers"
+        android:layout_alignBottom="@+id/etPlayer2ThreePlayers"
+        android:layout_toRightOf="@+id/etPlayer1ThreePlayers"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPlayer2ThreePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvThreePlayers"
+        android:layout_marginTop="82dp"
+        android:layout_toLeftOf="@+id/etPlayer1ThreePlayers"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/etPlayer1ThreePlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPlayer3ThreePlayers"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:maxLength="9"
+         android:inputType="numberPassword"
+        >
+        
+        <requestFocus />
+        
+        </EditText>
+        
+    <Button
+        android:id="@+id/bSeeResultThreePlayers"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/etPlayer3ThreePlayers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/customgobutton"
+        />
+
+    <TextView
+        android:id="@+id/tvPlayer1ThreePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPlayer1ThreePlayers"
+        android:layout_centerHorizontal="true"
+        android:text="Player1"
+        android:textColor="#1ECAFF" />
+
+    <TextView
+        android:id="@+id/tvPlayer2ThreePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPlayer1ThreePlayers"
+        android:layout_alignBottom="@+id/etPlayer1ThreePlayers"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/bSeeResultThreePlayers"
+        android:text="Player2"
+        android:textColor="#1ECAFF" />
+
+    <TextView
+        android:id="@+id/tvPlayer3ThreePlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPlayer1ThreePlayers"
+        android:layout_alignBottom="@+id/etPlayer1ThreePlayers"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/bSeeResultThreePlayers"
+        android:text="Player3"
+        android:textColor="#1ECAFF" />
+    
+</RelativeLayout>

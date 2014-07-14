@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/choosingplayersbackground"
+    >
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Number is generated in the range 0 - 100.
+        The One who is closer to this number will be THE WINNER!"
+        android:textColor="#ffffff"
+         />
+
+    <Button
+        android:id="@+id/bSeeResultTwoPlayers"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/etPlayer2Number"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/customgobutton" />
+
+    <EditText
+        android:id="@+id/etPlayer2Number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvMessage"
+        android:layout_below="@+id/tvMessage"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPlayer1Number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPlayer2Number"
+        android:layout_alignBottom="@+id/etPlayer2Number"
+        android:layout_alignLeft="@+id/tvMessage"
+        android:layout_marginLeft="19dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" >
+        <requestFocus />
+      </EditText>
+
+    <TextView
+        android:id="@+id/tvplayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPlayer1Number"
+        android:layout_marginBottom="14dp"
+        android:layout_toRightOf="@+id/bSeeResultTwoPlayers"
+        android:textColor="#1ECAFF"
+        android:text="Player2" />
+
+    <TextView
+        android:id="@+id/tvplayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvplayer2"
+        android:layout_alignBottom="@+id/tvplayer2"
+        android:layout_toLeftOf="@+id/bSeeResultTwoPlayers"
+        android:textColor="#1ECAFF"
+        android:text="Player1" />
+
+</RelativeLayout>

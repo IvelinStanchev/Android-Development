@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/choosingplayersbackground"
+    >
+
+    <TextView
+        android:id="@+id/tvMessageFourPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/etPlayer1FourPlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessageFourPlayers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPlayer4FourPlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPlayer2FourPlayers"
+        android:layout_alignBottom="@+id/etPlayer2FourPlayers"
+        android:layout_alignLeft="@+id/etPlayer1FourPlayers"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/etPlayer2FourPlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etPlayer1FourPlayers"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:layout_marginLeft="50dp"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/etPlayer3FourPlayers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPlayer4FourPlayers"
+        android:layout_alignBottom="@+id/etPlayer4FourPlayers"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:maxLength="9"
+        android:layout_marginRight="50dp"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/bSeeResultsFourPlayers"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etPlayer4FourPlayers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/customgobutton"
+        />
+
+    <TextView
+        android:id="@+id/tvPlayer1FourPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessageFourPlayers"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1ECAFF"
+        android:text="Player1" />
+
+    <TextView
+        android:id="@+id/tvPlayer3FourPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPlayer4FourPlayers"
+        android:layout_alignBottom="@+id/tvPlayer4FourPlayers"
+        android:layout_alignLeft="@+id/tvPlayer1FourPlayers"
+        android:text="Player3"
+        android:textColor="#1ECAFF" />
+
+    <TextView
+        android:id="@+id/tvPlayer2FourPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPlayer3FourPlayers"
+        android:layout_alignBottom="@+id/tvPlayer3FourPlayers"
+        android:layout_alignLeft="@+id/etPlayer2FourPlayers"
+        android:layout_marginLeft="21dp"
+        android:text="Player2"
+        android:textColor="#1ECAFF" />
+
+    <TextView
+        android:id="@+id/tvPlayer4FourPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPlayer3FourPlayers"
+        android:layout_alignRight="@+id/etPlayer3FourPlayers"
+        android:layout_marginRight="25dp"
+        android:text="Player4"
+        android:textColor="#1ECAFF" />
+
+</RelativeLayout>
