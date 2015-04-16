@@ -22,7 +22,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnItemClickListener {
 
-	ArrayList<Product> products;
+	private ArrayList<Product> products;
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

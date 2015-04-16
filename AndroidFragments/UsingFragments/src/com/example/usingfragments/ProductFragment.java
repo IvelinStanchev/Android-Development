@@ -12,17 +12,17 @@ import android.widget.TextView;
 @SuppressLint("NewApi")
 public class ProductFragment extends Fragment {
 	
-	String name;
-	String category;
-	int id;
-	int quantity;
-	double price;
+	private String name;
+	private String category;
+	private int id;
+	private int quantity;
+	private double price;
 	
-	TextView nameTextView;
-	TextView categoryTextView;
-	TextView idTextView;
-	TextView quantityTextView;
-	TextView priceTextView;
+	private TextView nameTextView;
+	private TextView categoryTextView;
+	private TextView idTextView;
+	private TextView quantityTextView;
+	private TextView priceTextView;
 	
 	public ProductFragment(String name, String category, int id, int quantity, double price) {
 		this.name = name;

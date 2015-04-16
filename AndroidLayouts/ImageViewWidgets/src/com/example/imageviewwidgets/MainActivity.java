@@ -17,9 +17,9 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	ImageView bull;
-	ImageView cow;
-	ImageView camel;
+	private ImageView bull;
+	private ImageView cow;
+	private ImageView camel;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

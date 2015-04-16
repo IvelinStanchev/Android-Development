@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class ShowInformationActivity extends Activity {
 
-	TextView result;
+	private TextView result;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
