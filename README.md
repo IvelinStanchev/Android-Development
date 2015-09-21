@@ -4,18 +4,13 @@
 
 <p>These are some homeworks done through the Telerik Software Academy Android course</p>
 
-<p>You can check my Apps uploaded in Google Play at these links:
+<p>You can also check my apps at these links:
     <ul>
-      <li><a href="https://play.google.com/store/apps/details?id=com.ivelins.cardata" target="_blank">Car Data<a/></li>
-      <li><a href="https://play.google.com/store/apps/details?id=com.ivelins.tvprogramabg" target="_blank">TV Programa BG<a/></li>
-      <li><a href="https://play.google.com/store/apps/details?id=com.ivelins.vicove" target="_blank">Vicove<a/></li>
-      <li><a href="https://play.google.com/store/apps/details?id=com.ivelins.kinoarena" target="_blank">Kino Arena<a/></li>
+    <li><a href="http://www.amazon.com/IvelinStanchev-TV-Programa-BG/dp/B010IBEY4I/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1442835661&sr=1-1&keywords=tv+programa+bg" target="_blank">TV Programa BG<a/></li>
+      <li><a href="http://www.amazon.com/IvelinStanchev-Car-Data/dp/B01088T9SW/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1442835736&sr=1-1&keywords=car+data" target="_blank">Car Data<a/></li>
+      <li><a href="http://www.amazon.com/IvelinStanchev-Cars-Compare/dp/B0108AOWS2/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1442835791&sr=1-1&keywords=cars+compare" target="_blank">Cars Compare<a/></li>
+      <li><a href="http://www.amazon.com/IvelinStanchev-Vicove/dp/B010GIOD2G/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1442835523&sr=1-1&keywords=vicove" target="_blank">Vicove<a/></li>
+      <li><a href="http://www.amazon.com/IvelinStanchev-Phones-Specifications/dp/B010GJFSVU/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1442835878&sr=1-1&keywords=phones+specifications" target="_blank">Phones Specifications<a/></li>
+      <li><a href="http://www.amazon.com/IvelinStanchev-BG-Online-TV/dp/B00X7Y7K9U/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1442835907&sr=1-1&keywords=bg+online+tv" target="_blank">BG Online TV<a/></li>
     </ul>
-</p>
-
-<p>Also you can download and install my unpublished apps:
-  <ul>
-      <li><a href="http://dox.bg/files/dw?a=53899bcfd8" target="_blank">CarsCompare (Extended Version of Car Data)<a/></li>
-      <li><a href="http://dox.bg/files/dw?a=331b077d9e" target="_blank">Phones Specifications<a/></li>
-  </ul>
-</p>
+</p>>
